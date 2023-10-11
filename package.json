@@ -2,7 +2,7 @@
   "name": "kendalls-note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "generate-unique-id": {
+    "version": "2.0.1",
+    "resolved": "https://registry.npmjs.org/generate-unique-id/-/generate-unique-id-2.0.1.tgz",
+    "integrity": "sha512-8b74nVk9KOj3Go2NofqNhC+3VDJ/121oBa72tXnYVwFN785rVR4v2ccj3Hwcy4ZErIz+TJ4Rn1NZHh/JW/12qQ=="
   }
 }
